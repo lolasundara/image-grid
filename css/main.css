@@ -69,10 +69,12 @@ img:nth-child(5) {
 
   img:nth-child(3) {
     width: 33.3333%;
+    float: left;
   }
 
   img:nth-child(4) {
     width: 33.3333%;
+    float: right;
   }
 
   img:nth-child(5) {
