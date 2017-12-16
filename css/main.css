@@ -33,3 +33,30 @@ img:nth-child(2) {
 img:nth-child(5) {
   display: none;
 }
+
+@media only screen and (min-width: 25em) {
+
+  img:nth-child(2) {
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+
+  img:nth-child(3) {
+    display: inline-block;
+    float: right;
+    width: 50%;
+  }
+
+  img:nth-child(4) {
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+
+  img:nth-child(5) {
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+}
