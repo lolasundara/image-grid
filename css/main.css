@@ -21,3 +21,15 @@ body {
   margin: 0;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
+img:nth-child(2) {
+  display: none;
+}
+
+img:nth-child(5) {
+  display: none;
+}
